@@ -2,7 +2,7 @@
 // variable declaration 
 
 
-const URL = ('http://api.timezonedb.com/v2.1/get-time-zone?key=TDKDP0UCEKKV&format=json&by=zone&zone=')
+const URL = ('http://vip.timezonedb.com/v2.1/get-time-zone?key=TDKDP0UCEKKV&format=json&by=zone&zone=')
 const $input = $('input[type="text"]')
 const $form = $('form')
 
@@ -30,7 +30,7 @@ function getData(event){
     $.ajax(URL+userInput).then(function(data){
         console.log(data)
         const $time = data.timestamp;
-        const $country = data.countryName;
+        //const $country = data.countryName;
 
 
         const $newTime = new Date($time*1000).toUTCString();
@@ -48,5 +48,6 @@ function getData(event){
 $(document).ready(function(){
     $input.fadeOut(2000).animate({height: 'toggle', opacity: '0.8'})
     $input.fadeIn(3000)
+    
   
 });
