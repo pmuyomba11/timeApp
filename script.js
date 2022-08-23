@@ -29,7 +29,14 @@ function getData(event){
 
     $.ajax(URL+userInput).then(function(data){
         console.log(data)
-        $('form').append(data)
+        const $time = data.timestamp;
+        const $country = data.countryName;
+
+
+        const $newTime = new Date($time*1000).toUTCString();
+       $('form').html($newTime)
+       
+       
         $input.val('')
 
     },
@@ -37,3 +44,9 @@ function getData(event){
         console.log(error)
     })
 }
+// 
+$(document).ready(function(){
+    $input.fadeOut(2000).animate({height: 'toggle', opacity: '0.8'})
+    $input.fadeIn(3000)
+  
+});

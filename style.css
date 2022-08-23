@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+    background-color: oldlace;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      
+}
+
+form .input {
+    margin-left: 20px;
+    margin-right: 10px;
+    border-color: rgb(23, 22, 22);
+
+}
