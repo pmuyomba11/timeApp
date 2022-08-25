@@ -33,5 +33,9 @@ Example Input: America/Chicago, America/Los_Angeles, America/Detroit and so on..
 click('https://pmuyomba11.github.io/timeApp/') to try it out
 
 
+## Future Enhancements
+Ability to apply more CSS styling, storage of time input,  and redesigning my web application.
+
+
 
 
