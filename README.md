@@ -29,6 +29,9 @@ Example Input: America/Chicago, America/Los_Angeles, America/Detroit and so on..
 <img width="1110" alt="Screen Shot 2022-08-25 at 8 24 45 AM" src="https://user-images.githubusercontent.com/111797748/186672170-def9a2e2-7c90-4b60-8f31-b261b7c22b1f.png">
 
 
+## Getting Started
+click('https://pmuyomba11.github.io/timeApp/') to try it out
+
 
 
 
